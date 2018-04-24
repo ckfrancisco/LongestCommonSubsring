@@ -1,10 +1,10 @@
-gcc -w -g main.c -o main.out
+g++ -w -g main.cpp -o main
 
-./main.out input/sample.txt 0 > output/sampleGlobal.txt
-./main.out input/sample.txt 1 > output/sampleLocal.txt
+./main input/sample.txt 0 > output2/sampleGlobal.txt
+./main input/sample.txt 1 > output2/sampleLocal.txt
 
-./main.out input/Opsin1.txt 0 > output/Opsin1Global.txt
-./main.out input/Opsin1.txt 1 > output/Opsin1Local.txt
+./main input/Opsin1.txt 0 > output2/Opsin1Global.txt
+./main input/Opsin1.txt 1 > output2/Opsin1Local.txt
 
-./main.out input/BRCA2.txt 0 > output/BRCA2Global.txt
-./main.out input/BRCA2.txt 1 > output/BRCA2Local.txt
+./main input/BRCA2.txt 0 > output2/BRCA2Global.txt
+./main input/BRCA2.txt 1 > output2/BRCA2Local.txt

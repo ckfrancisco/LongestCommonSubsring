@@ -1,0 +1,8 @@
+diff output/sampleGlobal.txt output2/sampleGlobal.txt
+diff output/sampleLocal.txt output2/sampleLocal.txt
+
+diff output/Opsin1Global.txt output2/Opsin1Global.txt
+diff output/Opsin1Local.txt output2/Opsin1Local.txt
+
+diff output/BRCA2Global.txt output2/BRCA2Global.txt
+diff output/BRCA2Local.txt output2/BRCA2Local.txt
